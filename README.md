@@ -29,7 +29,11 @@ This application allows a manager of an E-Commerce company to view the back-end 
 
 1) In terminal type `npm start` 
 2) Open `Insomnia` to navigate the database
-
+3) In address bar type `http://localhost:3001/api/(insert desired route here)`
+  - Routes available: `products`, `categories`, `tags`
+4) Select desired action from dropdown to the left of address bar (`GET`, `POST`, `PUT`, `DELETE`).
+5) All routes with endpoint `api/(route)` will `GET` and `POST`.
+6) In order to `PUT` (update) and `DELETE`, the endpoint needs to have the ID of item you would like to update or delete: `api/(route)/(id)`
 ## Contributing
 
 n/a
